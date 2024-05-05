@@ -1,0 +1,217 @@
+*{
+    background-color:rgba(0,0,0,255);
+    margin:0;
+    padding:0;
+}
+body{
+    margin: 0rem 2rem;
+
+}
+.box{
+    border: 3px solid white;
+    max-width:100%;
+
+}
+.section1 {
+    margin-bottom: 100px;
+    margin-right: 47px;
+    padding: 20px 0px;
+    height: auto;
+    width: 700px;;
+    position:relative;
+    top:140px;
+    float:right;
+    text-align: justify;
+}
+h1{
+    font-size: 50px;
+    color:white;
+    font-family:Apple Chancery, cursive; 
+    margin-bottom: 13px;
+}
+p{
+    font-size: 20px;
+    color:white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+#image img {
+    margin-left: 30px;
+    width: 500px;
+    height: 100%;
+    position: relative;   
+}
+
+
+#navbar {
+    border: 3px solid white;
+    height: 70px;
+    margin-top:10px;
+    margin-bottom: 5px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content:flex-end;  
+}
+
+.nav-links{
+    display:flex;
+    align-items: flex-end;
+}
+#navbar a{
+    margin: 20px;
+    text-decoration: none;
+    background-color: hsl(341, 51%, 57%);
+    color: white;
+    font-size:20px;    
+}
+#navbar a:hover{
+    background-color: rgb(140, 14, 81);
+    display:flex;
+    justify-content:flex-end;
+    align-items:flex-end;  
+    text-decoration: underline white;
+}
+#details{
+    color: white;
+    margin-top: 100px;
+    margin-right: 47px;
+    padding: 20px 0px;
+    height: auto;
+    width: 700px;;
+    position:relative;
+    top:-41px;
+    float:right;
+    text-align: justify;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#experience{
+    color: white;
+    margin-right: 47px;
+    padding: 20px 0px;
+    height: auto;
+    width: 700px;;
+    position:relative;
+    top:-51px;
+    float:right;
+    text-align: justify;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container {
+    border: 3px solid white;
+    margin-top: 5px;
+    padding: 30px 0px;
+    height: 60%;
+    max-width: 100%;
+    position: relative;
+    margin-bottom: 5px;   
+}
+.subtitle {
+    text-align: center;
+    margin: 30px;
+    font-family: cursive;
+    text-decoration:dotted;
+}
+
+#imagesit {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; /* or any other appropriate justification */
+}
+
+#image1 img,
+#image2 img,
+#image3 img {
+    width: 400px;
+    height: 600px;
+}
+#image1 img:hover,
+#image2 img:hover,
+#image3 img:hover {
+    opacity:0.6;
+}
+.imagecontainer {
+    position: relative;
+    display: flex; 
+}
+
+
+.imagedes {
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    text-align:center;
+    color: white;
+    background-color:rgba(0,0,0,0.3);
+    padding: 5px;
+    display: none; 
+}
+
+#image1:hover .imagedes {
+    display: block;
+}
+
+#image2:hover .imagedes {
+    display: block;
+}
+
+#image3:hover .imagedes {
+    display: block;
+}
+.form-container {
+    position: relative;
+    top: 0;
+    right: 0px;
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+.new{
+    border: 3px solid white;
+}
+.heading{
+    text-align: center;
+    margin: 35px 0 20px 0 !important;
+}
+.formsubmit{
+    display:flex;
+    justify-content:right;
+    color: #ffffff;
+    font-size: 30px;
+}
+.formsubmit > * {
+    margin-top:-240px;
+    margin-right: 80px;
+    margin-bottom: 100px;
+    border: 2px solid white;
+    padding:10px;
+}
+.col{
+    margin-bottom:30px;
+}
+.form-control{
+    width: 300px;
+    height: 50px;
+    font-size: 25px;
+    text-align: center;
+    color: #ffffff;
+}
+.para{
+    
+    margin-right: 600px;
+    margin-top: 120px;
+    margin-left: 4px;
+    text-align:center;
+}
+.form-group input[type="text"],
+.form-group input[type="email"],
+.formsubmit button {
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+
+
